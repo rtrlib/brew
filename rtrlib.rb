@@ -1,8 +1,8 @@
 class Rtrlib < Formula
   desc "The RPKI RTR Client C Library"
   homepage "https://rtrlib.realmv6.org"
-  url "https://github.com/rtrlib/rtrlib/archive/v0.3.6.tar.gz"
-  sha256 "594d6d150bc58f22137b900f53658ba09d2f20121bfaef0ce36a69dd486a9745"
+  url "https://github.com/rtrlib/rtrlib/archive/v0.5.0.tar.gz"
+  sha256 "8b1f2fa0501ae3a7a0a73447df1ee1b3735281f9b47c17479e9ca08eb6f55f69"
 
   depends_on "cmake" => :build
   depends_on "libssh" => :recommended
