@@ -6,7 +6,7 @@ class PythonRtrlib < Formula
   depends_on "libffi"
   depends_on "pkg-config"
   depends_on "rtrlib"
-  depends_on :python
+  depends_on "python@2"
 
   def install
     system "pip", "install", "cffi"
